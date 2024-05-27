@@ -1,7 +1,7 @@
 import openai
 from embedding.base_embedding import BaseEmbedding
 
-
+openai.api_base = "https://key.wenwen-ai.com/v1"
 class OpenAIEmbedding(BaseEmbedding):
     """Wrapper around OpenAI embedding models."""
 
