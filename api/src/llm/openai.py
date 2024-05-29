@@ -8,7 +8,7 @@ import tiktoken
 from llm.basellm import BaseLLM
 from retry import retry
 
-openai.api_base = "https://key.wenwen-ai.com/v1"
+openai.api_base = "https://api.chatanywhere.tech/v1"
 class OpenAIChat(BaseLLM):
     """Wrapper around OpenAI Chat large language models."""
 
